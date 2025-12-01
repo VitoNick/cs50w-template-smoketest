@@ -1,0 +1,20 @@
+{
+  "python.analysis.typeCheckingMode": "basic",
+  "python.terminal.activateEnvironment": true,
+  "python.analysis.autoImportCompletions": true,
+
+  "editor.formatOnSave": true,
+
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  },
+
+  "editor.codeActionsOnSave": {
+    "source.fixAll.ruff": "explicit",
+    "source.organizeImports.ruff": "explicit"
+  },
+
+  "[django-html]": {
+    "editor.defaultFormatter": "monosans.djlint"
+  }
+}
